@@ -11,7 +11,7 @@ export const meta = () => {
 export default function Index() {
     return (
         <main>
-            <section className='px-[328px] w-screen h-screen flex'>
+            <section className='px-[328px] w-screen h-screen flex relative'>
                 {/* Navigation */}
                 <Sidebar />
                 {/* End Navigation */}
@@ -21,7 +21,7 @@ export default function Index() {
                 {/* end Timeline */}
 
                 {/* Trending - Search */}
-                <section className='py-3 w-[300px]'>
+                <section className='fixed right-56 py-3 w-[300px]'>
                     <div className='relative mb-3'>
                         <img
                             className='absolute z-10 top-4 left-4'
